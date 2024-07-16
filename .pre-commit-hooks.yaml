@@ -20,3 +20,9 @@
   args: ["--", "-D", "warnings"]
   types: [rust]
   pass_filenames: false
+- id: cargo-test
+  name: cargo test
+  description: Run the package tests.
+  entry: cargo test
+  language: system
+  pass_filenames: false
