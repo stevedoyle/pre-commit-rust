@@ -19,3 +19,9 @@
     language: system
     files: \.rs$
     pass_filenames: false
+-   id: cargo-test
+    name: cargo test
+    description: Run the tests in the package.
+    entry: cargo test
+    language: system
+    pass_filenames: false
