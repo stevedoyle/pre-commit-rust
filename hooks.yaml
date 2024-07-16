@@ -21,7 +21,7 @@
     pass_filenames: false
 -   id: cargo-test
     name: cargo test
-    description: Run the tests in the package.
+    description: Run the package tests.
     entry: cargo test
     language: system
     pass_filenames: false
