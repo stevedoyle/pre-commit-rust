@@ -15,9 +15,8 @@
 - id: clippy
   name: clippy
   description: Lint rust sources
-  entry: cargo clippy
+  entry: cargo clippy --all-targets --all-features -- -Dclippy::all
   language: system
-  args: ["--all-targets", "--all-features", --", "-Dclippy::all"]
   types: [file, rust]
   pass_filenames: false
 - id: cargo-test
